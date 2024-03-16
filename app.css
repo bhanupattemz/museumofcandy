@@ -1,0 +1,30 @@
+body{
+    background-color: #FFB5DA;
+    font-family: Nunito;
+    
+}
+.about-candy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+.content-box{
+margin: 5% 0%;
+}
+.slash{
+    color: white;
+}
+h2{
+    color: #FF3EA5;
+}
+.navbar.scrolled {
+    background: #FF7ED4;
+    transition: background 500ms;
+}
+@media screen and (max-width:576px) {
+    .dis2{
+        order: -1;  
+    }  
+
+}
